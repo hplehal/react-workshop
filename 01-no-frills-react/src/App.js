@@ -8,13 +8,13 @@ const Pizza = (props) => {
     );
 }
 
-const App = () => {
+const App = () => { 
     return React.createElement(
         "div", 
-        {},[
+            {},[
             React.createElement("h1", {}, "Padre Gino's"),
             React.createElement(Pizza, {
-                name: "The Hawaiian Pizza",
+                name: "The Hawaiian Pizza", 
                 description: "Sliced Ham, Pineapple, Mozzarella Cheese"
             }),
             React.createElement(Pizza, {
